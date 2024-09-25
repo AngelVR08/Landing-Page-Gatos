@@ -1,0 +1,57 @@
+.contenido {
+    text-align: center;
+    padding: 20px; 
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.gatos-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.gato {
+    display: flex;
+    align-items: center; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 10px; 
+    width: 80%; 
+}
+
+.gato img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+.gato:hover img {
+    transform: scale(1.1); 
+    opacity: 0.9; 
+}
+
+.info {
+    text-align: left; 
+}
+.gatitos {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px 10%; 
+}
+
+.gatitos img {
+    width: 100px; 
+    height: auto; 
+}
